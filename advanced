@@ -1,0 +1,29 @@
+1. What are Git hooks?
+Answer: Git hooks are scripts that run automatically on specific git events, such as commit, push, or merge. They can be used to enforce policies, run tests, etc.
+
+2. What are Git hooks?
+Answer: Git hooks are scripts that run automatically on specific git events, such as commit, push, or merge. They can be used to enforce policies, run tests, etc.
+
+3. How do you delete a branch in Git?
+Answer: Use "git branch -d <branch-name>" to delete a local branch and "git push origin --delete <branch-name>" to delete a remote branch.
+
+4. What is a git stash?
+Answer: git stash temporarily shelves (or stashes) changes you've made to your working directory so you can work on something else, and then reapply them later
+
+5. What is git cherry-pick?
+Answer: git cherry-pick applies the changes introduced by some existing commits onto your current branch.
+
+6. How do you undo the last commit in Git?
+Answer: Use "git reset --soft HEAD~1" to undo the last commit but keep the changes staged, or "git reset --hard HEAD~1" to undo the commit and discard the changes.
+
+7. How do you revert a commit in Git?
+Answer: Use "git revert <commit-id>" to create a new commit that undoes the changes from a previous commit.
+
+8. What is the difference between git diff and git status?
+Answer: git diff shows the differences between various commits, branches, or files, while git status shows the state of the working directory and the staging area.
+
+9. What are Git hooks?
+Answer: Git hooks are scripts that run automatically on specific git events, such as commit, push, or merge. They can be used to enforce policies, run tests, etc.
+
+10. How do you list all the branches in Git?
+Answer: Use git branch to list local branches and git branch -r to list remote branches. git branch -a lists both.
