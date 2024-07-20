@@ -1,0 +1,29 @@
+1. What is Git?
+Answer: Git is a distributed version control system used to track changes in source code during software development. It allows multiple developers to work on the same project without interfering with each other.
+
+2. What is a repository in Git?
+Answer: A repository, or repo, is a directory that contains all the files and their history of changes in a project.
+
+3. What is a commit in Git?
+Answer: A commit is a snapshot of the project's files at a specific point in time. Each commit has a unique ID.
+
+4. What is the difference between git pull and git fetch?
+Answer: git fetch downloads changes from a remote repository but doesn't apply them, while git pull downloads and immediately merges them into the current branch.
+
+5. Explain the concept of branching in Git.
+Answer: Branching allows you to create separate lines of development within a repository. It is useful for working on new features or fixing bugs independently of the main codebase.
+
+6. How do you create a new branch in Git?
+Answer: Use "git branch <branch-name>" to create a new branch and "git checkout <branch-name>" to switch to it. Alternatively, use "git checkout -b <branch-name>" to do both in one step.
+
+7. What is a remote repository in Git?
+Answer: A remote repository is a version of your project hosted on the internet or network somewhere. You can push to and pull from it to share changes with others.
+
+8. What is the HEAD in Git?
+Answer: The HEAD is a pointer to the current branch reference, typically the last commit in that branch.
+
+9. How do you view the commit history in Git?
+Answer: Use git log to view the commit history. Options like --oneline, --graph, and --all can provide more readable formats.
+
+10. What is a submodule in Git?
+Answer: A submodule is a repository embedded inside another repository. It allows you to keep a Git repository as a subdirectory of another Git repository.
